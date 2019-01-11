@@ -17,7 +17,9 @@ Choosing optimum model hyperparameters
 
 Maybe put loss curves and model architecture here
 
-* The file ```Basic MNIST Feed Forward NN (MLP).ipynb``` shows a two layer Feed Forward (FF) Neural Network (NN).
+## Final Score Card
+
+The same architecture as in ```Basic MNIST Feed Forward NN (MLP).ipynb``` was used with the below changes and below results.
 
 | Weight Init        | Epochs        | Loss function       | Optimizer        | Activation        | Batch Size        | Regularization        | Accuracy           |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
