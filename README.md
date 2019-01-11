@@ -1,4 +1,4 @@
-# Neural_Network_hyperparameter_optimization
+# Neural Network Basics
 Choosing optimum model hyperparameters 
 
 * The file ```Basic MNIST Feed Forward NN (MLP).ipynb``` shows a two layer Feed Forward (FF) Neural Network (NN).
