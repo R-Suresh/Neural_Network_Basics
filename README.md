@@ -1,5 +1,6 @@
 # Neural Network Basics
-Choosing optimum model hyperparameters 
+
+## Choosing optimum model hyperparameters 
 
 * The file ```Basic MNIST Feed Forward NN (MLP).ipynb``` shows a two layer Feed Forward (FF) Neural Network (NN).
 
@@ -35,6 +36,16 @@ The same architecture as in ```Basic MNIST Feed Forward NN (MLP).ipynb``` was us
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | Adamax      |  relu | 256    |Dropout(0.6); Dropout(0.6) | 98.18 |
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | Adamax      |  relu | 256    |Dropout(0.55); Dropout(0.55) | 98.39 |
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | nadam      |  relu | 256    |Dropout(0.5); Dropout(0.5) | 98.25 |
+
+## Dataset Augmentation Techniques
+
+* The file ```Image Dataset Augmentation.ipynb``` visualizes how to augment your image dataset by considering the MNIST dataset and a single image. Such Augmentation would 
+   * Increase the size of your dataset preventing overfitting to a certain degree
+   * Make more robust
+* The Keras ImageDataGenerator is used.
+   * This accepts transformations to apply on the image like rotation angle, etc
+   * It generates the images at run/training time and feeds the images to the model itself
+   * Although this increase traning time a little it reduces memory requirements
 
 
 
