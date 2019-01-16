@@ -2,6 +2,8 @@
 
 ## Choosing optimum model hyperparameters 
 
+### Manual
+
 * The file ```Basic MNIST Feed Forward NN (MLP).ipynb``` shows a two layer Feed Forward (FF) Neural Network (NN).
 
 | Dataset        | Accuracy           |
@@ -18,7 +20,12 @@
 
 Maybe put loss curves and model architecture here
 
-## Final Score Card
+### Automated
+
+* The Ski-kit Learn API has grid Search that builds and evaluates models with different parameter values as specified in the grid.
+* This is illustrated in ```Grid Search.ipynb```
+
+## Score Card
 
 The same architecture as in ```Basic MNIST Feed Forward NN (MLP).ipynb``` was used with the below changes and below results.
 
