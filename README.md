@@ -1,4 +1,9 @@
 # Neural Network Basics
+## Choosing Optimal model features
+
+* The file ```Basic Feature Selection Sklearn.ipynb``` illustrates this process.
+   * Sklearn library is used for the feature selection on a custom dataset
+   * Stay tuned for a Botura based feature selection
 
 ## Choosing optimum model hyperparameters 
 
