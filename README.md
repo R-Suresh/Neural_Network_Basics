@@ -1,5 +1,5 @@
 # Neural Network Basics
-## Available Datasets
+## Machine Learning Datasets
 
 * The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on classification datasets that are available through the Keras and Sklearn API
 
