@@ -1,4 +1,9 @@
 # Neural Network Basics
+## Available Datasets
+
+* The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on classification datasets that are available through the Keras and Sklearn API
+
+
 ## Choosing Optimal model features
 
 * The file ```Basic Feature Selection Sklearn.ipynb``` illustrates this process.
