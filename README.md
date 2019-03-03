@@ -3,6 +3,13 @@
 
 * The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on classification datasets that are available through the Keras and Sklearn API
 
+## Visualization
+
+* The file ```Basic Matplotlib Tutorial.ipynb``` teaches data visualization with Matplotlib. Follow along and feel free to try in your own.
+
+![Basic Plot](https://github.com/R-Suresh/Neural_Network_Basics/blob/master/images/basic.jpg)
+![Advanced Plot](https://github.com/R-Suresh/Neural_Network_Basics/blob/master/images/advanced.jpg)
+
 
 ## Choosing Optimal model features
 
