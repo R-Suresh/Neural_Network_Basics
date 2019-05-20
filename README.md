@@ -1,7 +1,8 @@
 # Neural Network Basics
 ## Machine Learning Datasets
 
-* The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on classification datasets that are available through the Keras and Sklearn API
+* The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on real world classification datasets that are available through the Keras and Sklearn API
+* ```synthetic_classification_datasets.ipynb``` gives an idea about how to create synthetic classification datasets using the sklearn API
 
 ## Visualization
 
