@@ -4,6 +4,10 @@
 * The file ```API Accessible Classification Datasets.ipynb``` gives a scoop on real world classification datasets that are available through the Keras and Sklearn API
 * ```synthetic_classification_datasets.ipynb``` gives an idea about how to create synthetic classification datasets using the sklearn API
 
+## Multiclass oversampling and undersamping
+
+* The file ```Multiclass oversampling and undersamping.ipynb``` gives a brief on oversampling and undersampling techniques to handle imbalanced classes
+
 ## Visualization
 
 * The file ```Basic Matplotlib Tutorial.ipynb``` teaches data visualization with Matplotlib. Follow along and feel free to try in your own.
