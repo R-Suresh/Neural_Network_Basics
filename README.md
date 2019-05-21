@@ -8,9 +8,23 @@
 
 * The file ```Multiclass oversampling and undersamping.ipynb``` gives a brief on oversampling and undersampling techniques to handle imbalanced classes
 
+## Image Dataset Augmentation Techniques
+
+* The file ```Image Dataset Augmentation.ipynb``` visualizes how to augment your image dataset by considering the MNIST dataset and a single image. Such Augmentation would 
+   * Increase the size of your dataset preventing overfitting to a certain degree
+   * Make more robust
+* The Keras ImageDataGenerator is used.
+   * This accepts transformations to apply on the image like rotation angle, etc
+   * It generates the images at run/training time and feeds the images to the model itself
+   * Although this increase traning time a little it reduces memory requirements
+   
+## Evaluating baseline performance
+
+* The file ```Dummy Classifiers.ipynb``` tells how to set base line metrics by predicting most frequent target variable, etc using the sklearn dummy classifier API
+
 ## Visualization
 
-* The file ```Basic Matplotlib Tutorial.ipynb``` teaches data visualization with Matplotlib. Follow along and feel free to try in your own.
+* The file ```Basic Matplotlib Tutorial.ipynb``` teaches data visualization with Matplotlib. Follow along and feel free to try it on your own.
 
 ![Basic Plot](https://github.com/R-Suresh/Neural_Network_Basics/blob/master/images/basic.jpg)
 ![Advanced Plot](https://github.com/R-Suresh/Neural_Network_Basics/blob/master/images/advanced.jpg)
@@ -65,20 +79,4 @@ The same architecture as in ```Basic MNIST Feed Forward NN (MLP).ipynb``` was us
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | Adamax      |  relu | 256    |Dropout(0.6); Dropout(0.6) | 98.18 |
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | Adamax      |  relu | 256    |Dropout(0.55); Dropout(0.55) | 98.39 |
 | Xavier Uniform (glorot_uniform) | 20      | kullback_leibler_divergence      | nadam      |  relu | 256    |Dropout(0.5); Dropout(0.5) | 98.25 |
-
-## Dataset Augmentation Techniques
-
-* The file ```Image Dataset Augmentation.ipynb``` visualizes how to augment your image dataset by considering the MNIST dataset and a single image. Such Augmentation would 
-   * Increase the size of your dataset preventing overfitting to a certain degree
-   * Make more robust
-* The Keras ImageDataGenerator is used.
-   * This accepts transformations to apply on the image like rotation angle, etc
-   * It generates the images at run/training time and feeds the images to the model itself
-   * Although this increase traning time a little it reduces memory requirements
-
-
-
-
-
-
 
